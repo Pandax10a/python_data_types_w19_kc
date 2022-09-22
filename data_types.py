@@ -11,3 +11,18 @@ def find_test(the_thing):
 find_test(string_b)
 
 find_test(string_a)
+
+# # if ((string_a.endswith('test')) or (string_b.endswith('test'))):
+# #     print( 'found test')
+# # else:
+#     print('no test')
+
+
+list_numbers = [1, 3, 5, 7, 11, 13, 17, 19, 21, 25, 27]
+
+for num in list_numbers:
+    if(num > 10):
+        print('large:', num)
+    elif(num <= 10):
+        print('not large:', num)
+
