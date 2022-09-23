@@ -63,3 +63,10 @@ client = [
 
 for one_client in client:
     print(one_client['username'], one_client['age'], one_client['friends'])
+
+def two_number_input(num1, num2):
+    the_result = (num1*num2)/2
+    return the_result
+
+the_result_outside = two_number_input(8, 11)
+print(the_result_outside)
