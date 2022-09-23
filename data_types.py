@@ -26,3 +26,40 @@ for num in list_numbers:
     elif(num <= 10):
         print('not large:', num)
 
+
+group_clients = {
+    'username': 'userOne',
+    'age': 22,
+    'friends': ['bob', 'peter', 'jane', 'bruce']
+}
+
+print(group_clients['username'], group_clients['age'])
+
+for friend in group_clients['friends']:
+    print(friend)
+
+client = [
+    {
+    'username': 'userOne',
+    'age': 22,
+    'friends': ['bob', 'peter', 'jane', 'bruce']
+},
+{
+    'username': 'userTwo',
+    'age': 23,
+    'friends': ['bob2', 'peter2', 'jane2', 'bruce2']
+},
+{
+    'username': 'userThree',
+    'age': 24,
+    'friends': ['bob3', 'peter3', 'jane3', 'bruce3']
+},
+{
+    'username': 'userFour',
+    'age': 25,
+    'friends': ['bob4', 'peter4', 'jane4', 'bruce4']
+}
+]
+
+for one_client in client:
+    print(one_client['username'], one_client['age'], one_client['friends'])
